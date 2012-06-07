@@ -12,7 +12,7 @@
 	$AJXP_GLUE_GLOBALS["autoCreate"] = true;
 	
 	// NOTE THE md5() call on the password field.
-	$AJXP_GLUE_GLOBALS["login"] = array("name" => $_GET["userid"], "password" => md5('12345678'));
+	$AJXP_GLUE_GLOBALS["login"] = array("name" => $_GET["userid"], "password" => md5('********'));
 	
 	// NOW call glueCode!
    	include($glueCode);
