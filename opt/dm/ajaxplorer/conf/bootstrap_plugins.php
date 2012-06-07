@@ -85,7 +85,7 @@ $PLUGINS = array(
                                        "USERS_FILEPATH" => "AJXP_DATA_PATH/plugins/auth.serial/users.ser",
                                        		"LOGIN_URL" => "http://gridlab07.cnaf.infn.it/ajaxplorer/ajaxplorer_login.html",
                                               "LOGOUT_URL" => "http://gridlab07.cnaf.infn.it/ajaxplorer/ajaxplorer_logout.html",
-                                       "SECRET" => "******",
+                                       "SECRET" => "123456",
                                        "AUTOCREATE_AJXPUSER" => false,
                                        "TRANSMIT_CLEAR_PASS" => false
                                      )
